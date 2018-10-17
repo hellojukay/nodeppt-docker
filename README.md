@@ -1,5 +1,5 @@
 # nodeppt-docker
-这是一个使用nodeppt写ppt的项目，此项目解决了nodeppt的js和css问题，并且尝试将静态文件打包在Docker镜像中.
+这是一个使用nodeppt写ppt的项目，此项目解决了nodeppt的js和css的依赖问题，并且尝试将静态文件打包在Docker镜像中。
 # 依赖
 * nodeppt 
 * docker
