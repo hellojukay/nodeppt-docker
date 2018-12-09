@@ -5,6 +5,7 @@
 docker pull hellojukay/nodeppt-docker
 docker run --name ppt -p 8080:80 hellojukay/nodeppt-docker
 ```
+![image](./preview.png)
 [slide]
 # 依赖
 * nodeppt 

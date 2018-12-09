@@ -4,7 +4,6 @@ WORKDIR /app/build
 COPY . .
 RUN npm install -g nodeppt --registry=https://registry.npm.taobao.org 
 RUN nodeppt release
-RUN ls /app/build/publish
 
 FROM nginx:1.15.5
 COPY --from=0 /app/build/publish/ /usr/share/nginx/html
